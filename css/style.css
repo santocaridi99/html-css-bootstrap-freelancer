@@ -11,6 +11,7 @@
     color: white;
 }
 
+
 .item{
     height: 50px;
     border: 1px solid black;
@@ -38,4 +39,10 @@
 
 .bradius{
     border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .description>h3{
+        font-size: 13px;
+    
+    }
 }
