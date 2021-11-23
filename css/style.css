@@ -1,0 +1,17 @@
+.menta{
+    background-color: aquamarine;
+}
+
+.navbar{
+    background-color:#4c70b0;
+    height: 60px;
+}
+
+.white{
+    color: white;
+}
+
+.item{
+    height: 50px;
+    border: 1px solid black;
+}
