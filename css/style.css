@@ -40,6 +40,16 @@
 .bradius{
     border-radius: 5px;
 }
+
+.sito{
+    border: 1px solid white;
+    margin-left: 5px;
+    border-radius: 100%;
+    padding: 3px;
+    width: 30px;
+}
+
+/* ------------------------------------ */
 @media screen and (max-width: 768px){
     .description>h3{
         font-size: 13px;
