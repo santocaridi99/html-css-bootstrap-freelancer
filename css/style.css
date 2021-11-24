@@ -13,7 +13,7 @@
 
 .item{
     height: 50px;
-    border: 1px solid black;
+   
 }
 
 .sezione{
@@ -101,12 +101,46 @@
     margin-right: 2px;
 }
 
+.item-stella{
+    position: relative;
+}
+.fa-star{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 30px;
+}
+
+.item-linea{
+    position: relative;
+}
+
+.item-linea>hr{
+   position: absolute;
+   height: 5px;
+   color: white;
+   width: 100%;
+   opacity: 1;
+   border-radius: 5px;
+   top: 5px;
+
+}
+.item-linea-nera{
+    position: relative;
+}
+
+.item-linea-nera>hr{
+   position: absolute;
+   height: 5px;
+   color: rgb(0, 0, 0);
+   width: 100%;
+   opacity: 1;
+   border-radius: 5px;
+   top: 5px;
+
+}
+
 
 
 /* ------------------------------------ */
-@media screen and (max-width: 768px){
-    .description>h3{
-        font-size: 14px;
-    
-    }
-}
