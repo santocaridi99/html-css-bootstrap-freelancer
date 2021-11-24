@@ -2,9 +2,8 @@
     background-color: aquamarine;
 }
 
-.navbar{
+.colornav{
     background-color:#4c70b0;
-    height: 60px;
 }
 
 .white{
@@ -49,10 +48,11 @@
     width: 30px;
 }
 
+
 /* ------------------------------------ */
 @media screen and (max-width: 768px){
     .description>h3{
-        font-size: 13px;
+        font-size: 14px;
     
     }
 }
